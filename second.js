@@ -3,9 +3,7 @@ function sayHello(){
 }
 sayHello();
 
-
-
-function isOdd(number){
-    return number % 2 !== 0;
+function printName(name1){
+    console.log("My name is " + name1);
 }   
-isOdd(7);
+printName(Akshar);
